@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "org/ecorous/pladderc/mixin/EntityMixin": {
+      "updatePassengerPosition(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/Entity$PositionUpdater;)V": "Lnet/minecraft/class_1297;method_24201(Lnet/minecraft/class_1297;Lnet/minecraft/class_1297$class_4738;)V",
+      "removePassenger": "Lnet/minecraft/class_1297;method_5793(Lnet/minecraft/class_1297;)V",
+      "Lnet/minecraft/entity/Entity;getMountedHeightOffset()D": "Lnet/minecraft/class_1297;method_5621()D"
+    },
+    "org/ecorous/pladderc/mixin/LivingEntityMixin": {
+      "canBeRiddenInWater": "Lnet/minecraft/class_1309;method_5788()Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/ecorous/pladderc/mixin/EntityMixin": {
+        "updatePassengerPosition(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/Entity$PositionUpdater;)V": "Lnet/minecraft/class_1297;method_24201(Lnet/minecraft/class_1297;Lnet/minecraft/class_1297$class_4738;)V",
+        "removePassenger": "Lnet/minecraft/class_1297;method_5793(Lnet/minecraft/class_1297;)V",
+        "Lnet/minecraft/entity/Entity;getMountedHeightOffset()D": "Lnet/minecraft/class_1297;method_5621()D"
+      },
+      "org/ecorous/pladderc/mixin/LivingEntityMixin": {
+        "canBeRiddenInWater": "Lnet/minecraft/class_1309;method_5788()Z"
+      }
+    }
+  }
+}

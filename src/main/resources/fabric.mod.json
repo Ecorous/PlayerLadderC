@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "pladder",
+  "id": "pladderc",
   "version": "0.4.0",
 
-  "name": "Player Ladder",
-  "description": "Allows you to sit on other players",
+  "name": "PlayerLadderC",
+  "description": "Allows you to sit on other players - using a command",
   "authors": [
-    "ForwarD NerN"
+    "Ecorous (fork author)",
+    "ForwarD NerN (original author)"
   ],
   "contact": {
     "homepage": "",
@@ -14,22 +15,19 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/pladder/icon.png",
+  "icon": "assets/pladderc/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ru.nern.pladder.PLadder"
+      "org.ecorous.pladderc.PLadder"
     ]
   },
   "mixins": [
-    "pladder.mixins.json"
+    "pladderc.mixins.json"
   ],
 
   "depends": {
     "fabric": "*"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

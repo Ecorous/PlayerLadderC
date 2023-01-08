@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pladderc",
+  "version": "0.4.0",
+
+  "name": "PlayerLadderC",
+  "description": "Allows you to sit on other players - using a command",
+  "authors": [
+    "Ecorous (fork author)",
+    "ForwarD NerN (original author)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/pladderc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.ecorous.pladderc.PLadder"
+    ]
+  },
+  "mixins": [
+    "pladderc.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*"
+  }
+}
